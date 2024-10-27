@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import widrive from "../../Assets/Projects/Screenshot 2024-08-16 173309.png";
-import shopping from "../../Assets/Projects/e-commerce.png";
+import crypto from "../../Assets/Projects/Presented by Pradip Bokha.png";
 import askMe from "../../Assets/Projects/ask_me.png";
-import randomVideo from "../../Assets/Projects/Presented by Pradip Bokha.png";
+import randomVideo from "../../Assets/Projects/randomVideoCall.png";
 import newsMonkey from "../../Assets/Projects/newss.png";
 import rideSharing from "../../Assets/Projects/final .png";
 
@@ -61,7 +61,6 @@ function Projects() {
               title="WiDrive"
               description="Developed a hybrid WiFi and USB drive solution allowing users to upload files wirelessly without the physical drive. Built with React.js on the frontend, and Node.js with a MySQL database on the backend, it efficiently manages user data. Added an OTA feature on the website for seamless firmware updates."
               ghLink="https://widrive.vegg.co.in/"
-              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -71,17 +70,15 @@ function Projects() {
               isBlog={false}
               title="News Live"
               description="Developed a dynamic news platform using React.js, integrated with the News API for real-time updates. Implemented pagination and category filtering to enhance user experience and streamline access to live news content."
-              ghLink="https://github.com/BOKHAPRADIP3241/NewsMonkey"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
+              ghLink="https://github.com/BOKHAPRADIP3241/CryptoTrackerApp" />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={shopping}
+              imgPath={crypto}
               isBlog={false}
-              title="Shopping App"
-              description="Developed a robust E-commerce app using Java for Android, with a backend powered by MySQL. The admin panel, built with HTML, CSS, and PHP, allows seamless management of products, orders, and user data."
+              title="Crypto Tracker"
+              description="Developed a Crypto Tracker app in Kotlin, leveraging the CoinCap API for real-time cryptocurrency data. Implemented price alerts, customizable watchlists, and streamlined access to key metrics to enhance user experience in tracking live market trends."
               ghLink="https://github.com/BOKHAPRADIP3241/E-Commerce-App"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
