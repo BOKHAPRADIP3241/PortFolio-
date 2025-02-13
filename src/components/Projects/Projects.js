@@ -8,6 +8,7 @@ import askMe from "../../Assets/Projects/ask_me.png";
 import randomVideo from "../../Assets/Projects/randomVideoCall.png";
 import newsMonkey from "../../Assets/Projects/newss.png";
 import rideSharing from "../../Assets/Projects/final .png";
+import smarthome from "../../Assets/Projects/main_img.png"
 
 function Projects() {
   return (
@@ -21,6 +22,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={randomVideo}
@@ -51,6 +53,16 @@ function Projects() {
               description="Build a Voice Assistant with ChatGPT & DALL-E API. Create a smart voice assistant app using Flutter, integrating ChatGPT for natural language processing and DALL-E for AI image generation. Learn to implement REST APIs and design a stunning UI for a responsive, voice-controlled virtual assistant."
               ghLink="https://github.com/BOKHAPRADIP3241/ASK_ME"
               // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smarthome}
+              isBlog={false}
+              title="SmartHome Automation"
+              description="Enhanced an existing Smart Home Android app using Java with MVC & MVVM architecture, improving UI/UX by 75%. Implemented BLE with BEACON, SCENESET, and ByPASS functionalities. Integrated Amazon Alexa voice control via Alexa Skill Development Kit, Node.js, and AWS. Enabled seamless device communication using WebSocket and mDNS. Successfully deployed the app on Google Play Store."
+              ghLink=""
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
