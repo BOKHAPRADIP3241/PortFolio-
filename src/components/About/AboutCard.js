@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Pradip Bokha </span>
             from <span className="purple"> Surat, India.</span>
             <br />
-            I am currently employed as a software developer at VEGG.
+            I am currently employed as a software developer at VICHARAK.
             <br />
             I have completed Bachelor of Engineering in Computer Science at GMIT
             Bhavnagar.
