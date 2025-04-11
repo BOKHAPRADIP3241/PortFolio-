@@ -9,6 +9,7 @@ import randomVideo from "../../Assets/Projects/randomVideoCall.png";
 import newsMonkey from "../../Assets/Projects/newss.png";
 import rideSharing from "../../Assets/Projects/final .png";
 import smarthome from "../../Assets/Projects/main_img.png"
+import smartstudy from "../../Assets/Projects/studysmart.png"
 
 function Projects() {
   return (
@@ -68,6 +69,29 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={smartstudy}
+              isBlog={false}
+              title="Smart Study"
+              description="StudySmart helps students stay organized and focused by tracking study hours, managing tasks, and setting subject-wise goals. With a clean interface and built-in timer, it makes studying smarter and more effective."
+              ghLink="https://github.com/BOKHAPRADIP3241/StudySmart"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crypto}
+              isBlog={false}
+              title="Crypto Tracker"
+              description="Developed a Crypto Tracker app in Kotlin, leveraging the CoinCap API for real-time cryptocurrency data. Implemented price alerts, customizable watchlists, and streamlined access to key metrics to enhance user experience in tracking live market trends."
+              ghLink="https://github.com/BOKHAPRADIP3241/E-Commerce-App"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={widrive}
               isBlog={false}
               title="WiDrive"
@@ -85,16 +109,6 @@ function Projects() {
               ghLink="https://github.com/BOKHAPRADIP3241/CryptoTrackerApp" />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crypto}
-              isBlog={false}
-              title="Crypto Tracker"
-              description="Developed a Crypto Tracker app in Kotlin, leveraging the CoinCap API for real-time cryptocurrency data. Implemented price alerts, customizable watchlists, and streamlined access to key metrics to enhance user experience in tracking live market trends."
-              ghLink="https://github.com/BOKHAPRADIP3241/E-Commerce-App"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
