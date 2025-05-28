@@ -8,8 +8,9 @@ import askMe from "../../Assets/Projects/ask_me.png";
 import randomVideo from "../../Assets/Projects/randomVideoCall.png";
 import newsMonkey from "../../Assets/Projects/newss.png";
 import rideSharing from "../../Assets/Projects/final .png";
-import smarthome from "../../Assets/Projects/main_img.png"
-import smartstudy from "../../Assets/Projects/studysmart.png"
+import smarthome from "../../Assets/Projects/main_img.png";
+import smartstudy from "../../Assets/Projects/studysmart.png";
+import vicharakConnect from "../../Assets/2222222222.png";
 
 function Projects() {
   return (
@@ -23,6 +24,8 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -45,6 +48,37 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vicharakConnect}
+              isBlog={false}
+              title="Vicharak DAO"
+              description="Built a web platform using React.js, Node.js, and MySQL to register users and manage Axon AI edge devices. Enabled real-time control via WebSocket and WebRTC, supporting remote shell access and screen sharing features."
+              ghLink=""
+            // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={widrive}
+              isBlog={false}
+              title="WiDrive"
+              description="Developed a hybrid WiFi and USB drive solution allowing users to upload files wirelessly without the physical drive. Built with React.js on the frontend, and Node.js with a MySQL database on the backend, it efficiently manages user data. Added an OTA feature on the website for seamless firmware updates."
+              ghLink="https://widrive.vegg.co.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={newsMonkey}
+              isBlog={false}
+              title="News Live"
+              description="Developed a dynamic news platform using React.js, integrated with the News API for real-time updates. Implemented pagination and category filtering to enhance user experience and streamline access to live news content."
+              ghLink="https://github.com/BOKHAPRADIP3241/CryptoTrackerApp" />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -86,28 +120,10 @@ function Projects() {
               title="Crypto Tracker"
               description="Developed a Crypto Tracker app in Kotlin, leveraging the CoinCap API for real-time cryptocurrency data. Implemented price alerts, customizable watchlists, and streamlined access to key metrics to enhance user experience in tracking live market trends."
               ghLink="https://github.com/BOKHAPRADIP3241/E-Commerce-App"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={widrive}
-              isBlog={false}
-              title="WiDrive"
-              description="Developed a hybrid WiFi and USB drive solution allowing users to upload files wirelessly without the physical drive. Built with React.js on the frontend, and Node.js with a MySQL database on the backend, it efficiently manages user data. Added an OTA feature on the website for seamless firmware updates."
-              ghLink="https://widrive.vegg.co.in/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={newsMonkey}
-              isBlog={false}
-              title="News Live"
-              description="Developed a dynamic news platform using React.js, integrated with the News API for real-time updates. Implemented pagination and category filtering to enhance user experience and streamline access to live news content."
-              ghLink="https://github.com/BOKHAPRADIP3241/CryptoTrackerApp" />
-          </Col>
 
         </Row>
       </Container>
