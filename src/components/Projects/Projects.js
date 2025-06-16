@@ -11,6 +11,7 @@ import rideSharing from "../../Assets/Projects/final .png";
 import smarthome from "../../Assets/Projects/main_img.png";
 import smartstudy from "../../Assets/Projects/studysmart.png";
 import vicharakConnect from "../../Assets/2222222222.png";
+import jewelnest from "../../Assets/1.png";
 
 function Projects() {
   return (
@@ -67,6 +68,16 @@ function Projects() {
               title="WiDrive"
               description="Developed a hybrid WiFi and USB drive solution allowing users to upload files wirelessly without the physical drive. Built with React.js on the frontend, and Node.js with a MySQL database on the backend, it efficiently manages user data. Added an OTA feature on the website for seamless firmware updates."
               ghLink="https://widrive.vegg.co.in/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jewelnest}
+              isBlog={false}
+              title="JewelNest"
+              description="Developed a full-stack e-commerce platform for selling jewelry and imitation accessories, using TypeScript and Node.js to implement scalable backend services and a smooth shopping experience. Integrated secure payments and user authentication to provide a reliable and personalized shopping journey."
+              ghLink="https://github.com/BOKHAPRADIP3241/shiny-trinket-web/tree/main"
             />
           </Col>
 
