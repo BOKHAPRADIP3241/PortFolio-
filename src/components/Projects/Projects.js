@@ -12,6 +12,7 @@ import smarthome from "../../Assets/Projects/main_img.png";
 import smartstudy from "../../Assets/Projects/studysmart.png";
 import vicharakConnect from "../../Assets/2222222222.png";
 import jewelnest from "../../Assets/1.png";
+import fintrack from "../../Assets/final.jpg"
 
 function Projects() {
   return (
@@ -47,6 +48,17 @@ function Projects() {
               description="Ride Sharing Android App built with Java, Firebase, and Google Maps API. Find and share rides easily with real-time chat communication, mobile OTP authentication, and integrated Google Maps for seamless navigation and ride tracking."
               ghLink="https://github.com/BOKHAPRADIP3241/RideSharingg"
               // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fintrack}
+              isBlog={false}
+              title="FinTrack"
+              description="FinTrack is a full-featured personal finance app for Android, built with Kotlin. It allows users to track expenses, manage accounts, set budgets, and view detailed financial stats—all through a clean and intuitive interface."
+              ghLink="https://github.com/BOKHAPRADIP3241/fintrack"
+            // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
