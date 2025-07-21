@@ -13,6 +13,7 @@ import smartstudy from "../../Assets/Projects/studysmart.png";
 import vicharakConnect from "../../Assets/2222222222.png";
 import jewelnest from "../../Assets/1.png";
 import fintrack from "../../Assets/final.jpg"
+import newsLetter from "../../Assets/news_letter.png"
 
 function Projects() {
   return (
@@ -90,6 +91,16 @@ function Projects() {
               title="JewelNest"
               description="Developed a full-stack e-commerce platform for selling jewelry and imitation accessories, using TypeScript and Node.js to implement scalable backend services and a smooth shopping experience. Integrated secure payments and user authentication to provide a reliable and personalized shopping journey."
               ghLink="https://github.com/BOKHAPRADIP3241/shiny-trinket-web/tree/main"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={newsLetter}
+              isBlog={false}
+              title="Newsletter Pro"
+              description="Newsletter Pro -A clean, responsive landing page for a business newsletter, featuring an email subscription form, engagement stats, and a modern UI focused on conversion."
+              ghLink="https://github.com/BOKHAPRADIP3241/storyforge-newsletter-hub"
             />
           </Col>
 
